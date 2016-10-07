@@ -1,0 +1,43 @@
+header {
+  color: #fff;
+  background: #007DC6;
+  height: 48px;
+}
+
+header ul {
+  float: left;
+  margin: 3px 0px 0px 20px;
+  padding: 0px;
+}
+
+header li {
+  cursor: pointer;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+
+    font-size: 16px;
+    margin: 10px 5px 0px 20px;
+}
+
+header li:hover {
+  color: #bebebe;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin: 3px 0px 0px 20px;
+    padding-top: 4px;
+    float: left;
+    font-size: 25px;
+    padding-right: 3px;
+}
+
+.logo {
+    height: 50%;
+    float: left;
+    position: relative;
+    bottom: -8px;
+}

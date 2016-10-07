@@ -1,0 +1,16 @@
+body {
+  background: #F2F2F2;
+  font-family: 'Lato', sans-serif;; 
+}
+
+.mainTitle {
+  margin: 20px 0px 20px 20px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.mainTitle a {
+  text-decoration: none !important;
+  font-size: 25px;
+  padding-left: 8px
+}
