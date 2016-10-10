@@ -49,9 +49,7 @@ class Search extends Component {
       $.getJSON( "/registry/rs/ga/v2/ui/search/application")).then(function( result1, result2 ) {
         var mergedResults = result1[0].searchResult.hits.concat(result2[0].searchResult.hits);
         component.setState({rowData: mergedResults})
-
-        debugger
-
+        
         console.log('*******Merged Results********')
         console.dir(mergedResults)
     });
