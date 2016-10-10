@@ -3,9 +3,6 @@ import {AgGridReact} from 'ag-grid-react';
 import './search.css';
 import jquery from 'jquery';
 
-import RegisterStore from '../../stores/register.js'
-
-
 const $ = jquery;
 
 class Search extends Component {
@@ -53,6 +50,8 @@ class Search extends Component {
         var mergedResults = result1[0].searchResult.hits.concat(result2[0].searchResult.hits);
         component.setState({rowData: mergedResults})
 
+        debugger
+
         console.log('*******Merged Results********')
         console.dir(mergedResults)
     });
@@ -79,7 +78,6 @@ class Search extends Component {
   }
 
   handleAppClick(event) {
-    RegisterStore.setAppInfo(event.data)
     this.props.onRowClick()
   }
 }
