@@ -62,7 +62,7 @@ class Search extends Component {
     return (
       <div className="ag-fresh" style={{height: "400px"}}>
         <h1 className="mainTitle">Applications
-        <a href="#" onClick={this.handleAppClick.bind(this)}>+</a></h1>
+        <a href="#" onClick={boundClick}>+</a></h1>
         <AgGridReact
           columnDefs={this.state.columnDefs}
           rowData={this.state.rowData}
